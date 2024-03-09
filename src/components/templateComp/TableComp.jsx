@@ -13,7 +13,7 @@ const TableComp = () => {
                   type="checkbox"
                   className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:border-gray-600"
                 />
-                <label for="checkbox-all-search" className="sr-only rounded-lg">
+                <label htmlFor="checkbox-all-search" className="sr-only rounded-lg">
                   checkbox
                 </label>
               </div>
@@ -48,7 +48,7 @@ const TableComp = () => {
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
                 <label
-                  for="checkbox-table-search-1"
+                  htmlFor="checkbox-table-search-1"
                   className="sr-only rounded-lg"
                 >
                   checkbox
@@ -61,8 +61,8 @@ const TableComp = () => {
             >
               Redesign main page
             </th>
-            <td class="flex gap-1 px-2 py-4 items-center">
-              <div class="">
+            <td className="flex gap-1 px-2 py-4 items-center">
+              <div className="">
                 <img src={Profile} className="h-6" alt="profile pic" />
               </div>
               <div>Dianne R.</div>
@@ -85,7 +85,7 @@ const TableComp = () => {
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
                 <label
-                  for="checkbox-table-search-2"
+                  htmlFor="checkbox-table-search-2"
                   className="sr-only rounded-lg"
                 >
                   checkbox
@@ -98,8 +98,8 @@ const TableComp = () => {
             >
               Meeting with HR
             </th>
-            <td class="flex gap-1 px-2 py-4 items-center">
-              <div class="">
+            <td className="flex gap-1 px-2 py-4 items-center">
+              <div className="">
                 <img src={Profile} className="h-6" alt="profile pic" />
               </div>
               <div>Jenny W.</div>
@@ -122,7 +122,7 @@ const TableComp = () => {
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
                 <label
-                  for="checkbox-table-search-3"
+                  htmlFor="checkbox-table-search-3"
                   className="sr-only rounded-lg"
                 >
                   checkbox
@@ -135,8 +135,8 @@ const TableComp = () => {
             >
               Make changes for developers
             </th>
-            <td class="flex gap-1 px-2 py-4 items-center">
-              <div class="">
+            <td className="flex gap-1 px-2 py-4 items-center">
+              <div className="">
                 <img src={Profile} className="h-6" alt="profile pic" />
               </div>
               <div>Ronald R.</div>
@@ -159,7 +159,7 @@ const TableComp = () => {
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
                 <label
-                  for="checkbox-table-search-3"
+                  htmlFor="checkbox-table-search-3"
                   className="sr-only rounded-lg"
                 >
                   checkbox
@@ -172,8 +172,8 @@ const TableComp = () => {
             >
               Mentorship
             </th>
-            <td class="flex gap-1 px-2 py-4 items-center">
-              <div class="">
+            <td className="flex gap-1 px-2 py-4 items-center">
+              <div className="">
                 <img src={Profile} className="h-6" alt="profile pic" />
               </div>
               <div>Elenor</div>
@@ -196,7 +196,7 @@ const TableComp = () => {
                   className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                 />
                 <label
-                  for="checkbox-table-search-3"
+                  htmlFor="checkbox-table-search-3"
                   className="sr-only rounded-lg"
                 >
                   checkbox
@@ -209,8 +209,8 @@ const TableComp = () => {
             >
               Meeting with HR
             </th>
-            <td class="flex gap-1 px-2 py-4 items-center">
-              <div class="">
+            <td className="flex gap-1 px-2 py-4 items-center">
+              <div className="">
                 <img src={Profile} className="h-6" alt="profile pic" />
               </div>
               <div>Robert F.</div>

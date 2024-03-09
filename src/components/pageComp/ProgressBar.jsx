@@ -1,6 +1,6 @@
-import Card from '../templateComp/Card';
-import ProgressBarComp from '../templateComp/ProgressBarComp';
-import { Dots } from '../images/images';
+import Card from '../templateComp/Card.jsx';
+import ProgressBarComp from '../templateComp/ProgressBarComp.jsx';
+import { Dots } from '../images/images.js';
 
 const ProgressBar = () => {
   const progressData = [
