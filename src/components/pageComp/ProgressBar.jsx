@@ -33,7 +33,7 @@ const ProgressBar = () => {
             <img src={Dots} className="h-6" alt="dots" />
           </div>
         </div>
-        <div className="flex justify-between items-center">
+        <div className="lg:flex justify-between items-center">
           {progressData.map((data, index) => (
             <ProgressBarComp
               key={index}

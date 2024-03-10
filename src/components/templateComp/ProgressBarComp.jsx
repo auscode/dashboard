@@ -15,39 +15,41 @@ const ProgressBarComp = ({
 
   return (
     <>
-      <div className="text-center text-sm font-semibold text-gray-600">
-        <svg className="" width="120" height="120">
-          <circle
-            stroke={innerColor}
-            fill="transparent"
-            strokeWidth="10"
-            r="50"
-            cx="60"
-            cy="60"
-          />
-          <circle
-            className="rounded-lg"
-            stroke={outerColor}
-            fill="transparent"
-            strokeWidth="10"
-            strokeDasharray={circumference}
-            strokeDashoffset={strokeDashoffset}
-            r="50"
-            cx="60"
-            cy="60"
-          />
-          <text
-            x={textX}
-            y={textY}
-            textAnchor="middle"
-            dominantBaseline="middle"
-            fontSize="20"
-            fill="black"
-          >
-            {progressPercentage}%
-          </text>
-        </svg>
-        <div>{text}</div>
+      <div className='mb-2'>
+        <div className='flex items-center justify-center'>
+          <svg className="flex items-center justify-center" width="120" height="120">
+            <circle
+              stroke={innerColor}
+              fill="transparent"
+              strokeWidth="10"
+              r="50"
+              cx="60"
+              cy="60"
+            />
+            <circle
+              className="rounded-lg"
+              stroke={outerColor}
+              fill="transparent"
+              strokeWidth="10"
+              strokeDasharray={circumference}
+              strokeDashoffset={strokeDashoffset}
+              r="50"
+              cx="60"
+              cy="60"
+            />
+            <text
+              x={textX}
+              y={textY}
+              textAnchor="middle"
+              dominantBaseline="middle"
+              fontSize="20"
+              fill="black"
+            >
+              {progressPercentage}%
+            </text>
+          </svg>
+        </div>
+        <div className="text-center text-sm font-semibold text-gray-600">{text}</div>
       </div>
     </>
   );
